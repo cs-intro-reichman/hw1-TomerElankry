@@ -8,7 +8,8 @@ public class Bill3 {
 		int price = Integer.parseInt(args[3]);
 		//Basiclly, I've recieved 3 names and the price of the bill.
 		double fixed = Math.ceil(price/3.0); // Here I've wanted to round the price up.
-		System.out.println("Dear " + name1 + ", " + name2 + ", " + name3 + ": pay " + fixed + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + fixed + " Shekels each");
+		//Dear c, b, and a: pay 80.0 Shekels
 		
 		
 	}
