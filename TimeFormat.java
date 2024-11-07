@@ -17,14 +17,23 @@ public class TimeFormat {
 		String newms = "";
         if(hours>12)
 		{
+			
 			ampm = "PM";
 			newhs= "" + (hours-12);
 		}
 		else
 		 { 
-			ampm = "AM";
+			if(hours==12)
+			{
+				ampm =  "PM";
+			}
+			else
+			{
+				ampm = "AM";
+			}
 			newhs= " " + hours;
 		 }
+		 
 		 if(minutes/10==0)
 		 {
 			newms = "0"+minutes;
