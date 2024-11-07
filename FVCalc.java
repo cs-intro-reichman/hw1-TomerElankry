@@ -8,9 +8,9 @@ public class FVCalc {
 		double fv1 = Math.pow((prc/100.0+1), yrs);
 		fv1=fv1*isum;
 		//The two lines above calculated the future sum
-		System.out.println("After " + yrs + " years, " + "$" + isum+ " saved at "+ prc+ "% will yield $" + (int)fv1);
-
-		
+		System.out.println("After " + yrs + " years, a " + "$" + isum+ " saved at "+ (double)prc+ "% will yield $" + (int)fv1);
+		//After 2 years, a $100 saved at 10.0% will yield $121
+		//After 2 years, a $100 saved at 10.0% will yield $121
 		
 	
 	}
